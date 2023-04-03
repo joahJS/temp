@@ -1,1 +1,0 @@
-import{s as a}from"./subPageHero.1b9468c1.js";import{o,c as s,a as t,F as r,b as e}from"./index.03d99e50.js";const c=e("div",null,[e("h1",null,"\uD68C\uC0AC\uC18C\uAC1C")],-1),p={__name:"Abouts",setup(n){return(l,_)=>(o(),s(r,null,[t(a),c],64))}};export{p as default};
