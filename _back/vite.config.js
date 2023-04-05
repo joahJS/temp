@@ -12,5 +12,5 @@ export default defineConfig({
     },
     build: {},
     // base: '/temp/',
-    publicPath: '/temp',
+    publicPath: '/temp/',
 })
