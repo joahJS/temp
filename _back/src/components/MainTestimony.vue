@@ -7,7 +7,7 @@
         <swiper id="testimonyContainer" v-bind="testimonySliderSettings">
             <swiper-slide v-for="slide in testimonySlides" :key="slide.uniqueKey" class="testimony-container">
                 <div class="testimony-overlay">
-                    <img class="testimony-picture" :src="'/images/users/' + slide.userPicture" alt="">
+                    <img class="testimony-picture" :src="'/assets/images/users/' + slide.userPicture" alt="">
                     <h2 class="testimony-user">{{ slide.userName }}</h2>
                     <p class="testimony-workfield">{{ slide.workField }}</p>
                 </div>

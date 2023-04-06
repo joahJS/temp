@@ -2,6 +2,7 @@ import { createWebHistory, createWebHashHistory, createRouter } from 'vue-router
 import Main from '@/views/Main.vue'
 
 const routes = [
+    { path: '/temp/', name: 'tempMain', component: Main },
     { path: '/', name: 'Main', component: Main },
     {
         path: '/about',
